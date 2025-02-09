@@ -37,7 +37,20 @@ const PostsList = () => {
         Posts are loading...
       </div>
     )
-  if (postsStatus === 'failed') return <p>{postsError}</p>
+  if (postsStatus === 'failed')
+    return (
+      <div
+        style={{
+          width: '100%',
+          height: '100%',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        {postsError}
+      </div>
+    )
   if (postsStatus === 'success')
     return (
       <div>
