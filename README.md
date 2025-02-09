@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 This is a project that was created in order to learn react toolkit
 
 
 # React + TypeScript + Vite
+=======
+This was an apportunity for me to learn both react toolkit and the main concepts of git and i will continue to develop on the way
+>>>>>>> d61f9ec (add description to readme)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -51,4 +55,5 @@ export default tseslint.config({
   },
 })
 ```
+
 # Redux-Tutorial
