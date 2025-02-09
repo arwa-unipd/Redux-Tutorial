@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import postsReducer from '../features/posts/postsSlice'
+import postsReducer from '../features/posts/PostsSlice'
 import usersReducer from '../features/users/userSlice'
 const store = configureStore({
   reducer: {
@@ -8,5 +8,6 @@ const store = configureStore({
   },
 })
 export type AppStore = typeof store
+export type AppDispatch = typeof store.dispatch
 export type RootState = ReturnType<AppStore['getState']>
 export default store
